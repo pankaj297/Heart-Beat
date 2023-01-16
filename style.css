@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+body section{
+	width: 130%;
+	height: 110vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: lightblue;
+  background-repeat:no-repeat;
+  background-size:cover;
+	background-image:url("https://i.ibb.co/YbsqQZM/black-heart-with-purple-love-word-hd-heart-HD.jpg");
+    
+    
+}
+body section svg path{
+	stroke-dasharray: 4717.19042968758765;
+	stroke-width:6px;
+	stroke-dashoffset : 4717.19042968758765;
+	animation: animate 10s linear infinite;
+}
+audio{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 2rem;
+    
+}
+audio::-webkit-media-controls-panel {
+    background-color: #56AEFF;
+  }
+
+@keyframes animate{
+	0%{
+		stroke-dashoffset : 4717.1904296875;
+	}
+	25%{
+		stroke-dashoffset : 3500;
+	}
+	30%{
+		stroke-dashoffset : 2200;
+	}
+	65%{
+		stroke-dashoffset : 0;
+	}
+	75%{
+		stroke-dashoffset : 0;
+	}
+	96%{
+		stroke-dashoffset : 4717.1904296875;
+	}
+	100%{
+		stroke-dashoffset : 4717.1904296875;
+	}
+}
+/* @media only screen and(max-width: 800px){
+   
+} */
+
